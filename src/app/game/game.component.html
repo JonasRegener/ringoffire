@@ -1,7 +1,10 @@
 <div class="gamefield">
-<br>
-<div class="card-stack"><img *ngFor="let c of [0, 1, 2, 3, 4]; let i = index;"  [ngStyle]="{'right.px': i * 8}" src="/assets/img/playing_cards-master/card_cover.png" >
+    <br>
+    <div class="card-stack"><img *ngFor="let c of [0, 1, 2, 3]; let i = index;" [ngStyle]="{'right.px': i * 8}"
+            src="/assets/img/playing_cards-master/card_cover.png">
+        <img (click)="takeCard()" class="top-card" style="right: 25px;" src="/assets/img/playing_cards-master/card_cover.png">
+        <img (click)="takeCard()" *ngIf="pickCardAnimation" class="pick-card" style="right: 25px;" src="/assets/img/playing_cards-master/diamonds_1.png">
     </div>
-    
+
 </div>
 <p>Photo by Daniel Absi from Pexels</p>
