@@ -9,3 +9,11 @@
     align-items: center;
 }
 
+.card-stack {
+    position: relative;
+    img {
+        position: absolute;
+        width:150px;
+    }
+}
+
