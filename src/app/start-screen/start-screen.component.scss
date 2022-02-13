@@ -3,8 +3,11 @@
     height: 100vh;
     z-index: 0;
 img {
-    width: 100%;
-    height: 100%;
+width: 100vw;
+height: 100vh;
+    background-size: cover;
+ 
+  
 }
 
 }
@@ -13,10 +16,24 @@ img {
     z-index: 1;
     position: absolute;
     top: 0;
-    left: 42%;
+    left:0;
+    right: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     h1 {
         color: white;
         padding-top: 50px;
         font-size: 50px;
+    }
+    a {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+    img {
+        height: 40vh;
     }
 }
