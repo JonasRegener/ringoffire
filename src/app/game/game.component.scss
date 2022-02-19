@@ -24,6 +24,11 @@
         transform: scale(1.17) translateY(-20px);
     }
 }
+
+.played-card {
+    right: 25px;
+    transform: scale(1.7) translateX(150px) translateY(-180px) rotate(-10deg);
+}
 .pick-card {
     animation: pick-card-animation 1.2s ease-in-out;
     transform: scale(1.7) translateX(150px) translateY(-180px) rotate(-10deg);
@@ -44,3 +49,5 @@
     }
     
 }
+
+
