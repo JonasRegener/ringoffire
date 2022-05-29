@@ -19,6 +19,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { environment } from '../environments/environment';
+import { PlayerMobileComponent } from './player-mobile/player-mobile.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { environment } from '../environments/environment';
     GameComponent,
     PlayerComponent,
     DialogAddPlayerComponent,
-    GameInfoComponent
+    GameInfoComponent,
+    PlayerMobileComponent
   ],
   imports: [
     BrowserModule,
